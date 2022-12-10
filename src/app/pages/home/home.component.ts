@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {CATEGORIES} from '../../core/db/category.db';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

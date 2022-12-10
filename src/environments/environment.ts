@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  name: 'CDLC',
-  domain: 'cdlc.softlabit.com',
+  name: 'bayCom',
+  domain: 'bayCom.com',
   apiBaseLink: 'http://localhost:3000',
   ftpBaseLink: 'http://localhost:3000',
   appBaseUrl: '/',

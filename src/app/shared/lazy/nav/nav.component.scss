@@ -1,0 +1,52 @@
+// @import "../../../../theme/exports/section-header";
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+h1{
+    color: blueviolet;
+    margin: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+.search{
+input{
+color: blueviolet;
+padding: 10px 100px ;
+border: 2px solid blueviolet;
+outline: none;
+background-origin: 5px;
+border-radius: 4px;
+
+}
+button{
+    color: blueviolet;
+    padding: 10px 15px ;
+    border: 2px solid blueviolet;
+    border-left: 0;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    li{
+        padding: 10px 10px;
+
+        a{
+            text-decoration: none;
+            color: blueviolet;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    }
+}
