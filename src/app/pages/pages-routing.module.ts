@@ -16,6 +16,10 @@ const routes: Routes = [
         loadChildren: () => import('./seller-auth/seller-auth.module').then(m => m.SellerAuthModule)
       },
       {
+        path: 'seller-home',
+        loadChildren: () => import('./seller-home/seller-home-routing.module').then(m => m.SellerHomeRoutingModule)
+      },
+      {
         path: '**',
         loadChildren: () => import('./error-page/error-page.module').then(m => m.ErrorPageModule)
       }

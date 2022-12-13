@@ -6,6 +6,7 @@ import {PagesRoutingModule} from './pages-routing.module';
 import {SharedModule} from '../shared/shared.module';
 import {PipesModule} from '../shared/pipes/pipes.module';
 import { FormsModule } from '@angular/forms';
+import { NavModule } from 'src/app/shared/lazy/nav/nav.module';
 
 
 
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     SwiperModule,
     SharedModule,
     PipesModule,
-    FormsModule
+    FormsModule,
+    NavModule
   ]
 })
 export class PagesModule {

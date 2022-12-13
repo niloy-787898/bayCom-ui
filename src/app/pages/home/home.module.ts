@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import {CategoryCardOneModule} from '../../shared/lazy/category-card-one/category-card-one.module';
-import { NavModule } from 'src/app/shared/lazy/nav/nav.module';
+
 
 
 
@@ -15,8 +15,7 @@ import { NavModule } from 'src/app/shared/lazy/nav/nav.module';
     imports: [
         CommonModule,
         HomeRoutingModule,
-        CategoryCardOneModule,
-       NavModule
+        CategoryCardOneModule
     ]
 })
 export class HomeModule { }

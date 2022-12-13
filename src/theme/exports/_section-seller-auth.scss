@@ -1,15 +1,15 @@
 @import "src/theme/fonts";
-@import'src/theme/variables';
+@import "src/theme/variables";
 
 .seller-auth {
-    padding: 70px 0 0 0;
+  padding: 70px 0 0 0;
 }
 
 .sign-up {
-    h1{
-        text-align: center;
-        padding: 20px 0;
-    }
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+  }
   .form {
     display: flex;
     flex-direction: column;
@@ -17,25 +17,26 @@
     align-items: center;
     gap: 20px;
     .form-input {
-        
-        padding: 10px 60px;
-        border: 1px solid blueviolet;
-        border-radius: 5px;
-        color: blueviolet;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 400;
-        font-family: $font-en-poppins;
+      width: 50%;
+      padding: 10px 0px;
+      border: 1px solid blueviolet;
+      border-radius: 5px;
+      color: blueviolet;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: $font-en-poppins;
     }
     .form-button {
-        padding: 10px 125px;
-        color: blueviolet;
-        border: 1px solid blueviolet;
-        border-radius: 5px;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 400;
-        font-family: $font-en-poppins;
+      padding: 10px 125px;
+      color: blueviolet;
+      border: 1px solid blueviolet;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: $font-en-poppins;
+      cursor: pointer;
     }
   }
 }
