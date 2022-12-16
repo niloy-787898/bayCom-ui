@@ -1,9 +1,9 @@
 {
   "seller": [
     {
-      "name": "niloy",
-      "email": "khanniloytahsin@gmail.com",
-      "password": "niloy787898",
+      "name": "",
+      "email": "",
+      "password": "",
       "id": 1
     },
     {
@@ -13,52 +13,22 @@
       "id": 2
     },
     {
-      "name": "Lecture-01",
-      "email": "salmaakterlucky@gmail.com",
-      "password": "245s4c54c",
+      "name": "Md. Mortuza Kamal",
+      "email": "khanniloytahsin@gmail.com",
+      "password": "zhzhf",
       "id": 3
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
+      "name": "new",
+      "email": "zamirislam@gmail.com",
+      "password": "bjbh",
       "id": 4
     },
     {
-      "name": "Md. Mortuza Kamal",
-      "email": "khanniloytahsin@gmail.com",
-      "password": "534njjhk",
+      "name": "new",
+      "email": "zamirislam@gmail.com",
+      "password": "bjbh",
       "id": 5
-    },
-    {
-      "name": "Md. Mortuza Kamal",
-      "email": "khanniloytahsin@gmail.com",
-      "password": "534njjhk",
-      "id": 6
-    },
-    {
-      "name": "Md. Mortuza Kamal",
-      "email": "khanniloytahsin@gmail.com",
-      "password": "534njjhk",
-      "id": 7
-    },
-    {
-      "name": "niloy",
-      "email": "khanniloytahsin@gmail.com",
-      "password": "8765fdfd",
-      "id": 8
-    },
-    {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 9
-    },
-    {
-      "name": "Noor Pramanik",
-      "email": "noorpramanik@gmail.com",
-      "password": "noor787898",
-      "id": 10
     }
   ]
 }

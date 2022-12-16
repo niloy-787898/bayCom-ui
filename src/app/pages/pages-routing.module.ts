@@ -1,6 +1,7 @@
 import {PagesComponent} from './pages.component';
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
+import { AuthGuard } from '../auth.guard';
 
 const routes: Routes = [
   {
@@ -17,7 +18,8 @@ const routes: Routes = [
       },
       {
         path: 'seller-home',
-        loadChildren: () => import('./seller-home/seller-home-routing.module').then(m => m.SellerHomeRoutingModule)
+        loadChildren: () => import('./seller-home/seller-home-routing.module').then(m => m.SellerHomeRoutingModule),
+        canActivate:[AuthGuard]
       },
       {
         path: '**',

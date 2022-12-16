@@ -11,13 +11,23 @@ import { SellerService } from 'src/app/services/seller.service';
 export class SellerAuthComponent implements OnInit {
   constructor(private seller:SellerService, private router:Router) {}
 
-  ngOnInit(): void {}
+  showLogin = false;
+
+  ngOnInit(): void {
+    this.seller.reloadSeller()
+  }
   signUp(data: SignUp): void {
 
-    this.seller.userSignUp(data).subscribe((result)=>{
-      if(result){
-this.router.navigate(['seller-home'])
-      }
-    })
+    this.seller.userSignUp(data)
+  }
+  login(data: SignUp): void {
+console.warn(data)
+    // this.seller.userSignUp(data)
+  }
+  openLogin(){
+this.showLogin=true
+  }
+  openSignUp(){
+    this.showLogin=false
   }
 }
