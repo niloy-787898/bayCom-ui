@@ -4,7 +4,9 @@
 .seller-auth {
   padding: 70px 0 0 0;
 }
-
+.login-auth {
+  padding: 30px 0 0 0;
+}
 
 .sign-up {
   h1 {
@@ -18,20 +20,21 @@
     align-items: center;
     gap: 20px;
     .form-input {
-      width: 50%;
-      padding: 10px 0px;
-      border: 1px solid blueviolet;
+      width: 40%;
+      padding: 10px 0 10px 10px;
+      border: 1px solid $color-primary;
       border-radius: 5px;
-      color: blueviolet;
-      text-align: center;
+      color: $color-primary;
+      text-align: left;
       font-size: 14px;
       font-weight: 400;
       font-family: $font-en-poppins;
     }
     .form-button {
-      padding: 10px 125px;
-      color: blueviolet;
-      border: 1px solid blueviolet;
+      padding: 7px 0;
+      width: 40%;
+      color: $color-primary;
+      border: 1px solid $color-primary;
       border-radius: 5px;
       text-align: center;
       font-size: 14px;
@@ -39,10 +42,10 @@
       font-family: $font-en-poppins;
       cursor: pointer;
     }
-   
+
     .auth-toggle-link {
-      margin-top: 20px;
-      color: blueviolet;
+      margin-top: 10px;
+      color: $color-primary;
       font-size: 14px;
       text-align: center;
       cursor: pointer;
@@ -54,6 +57,14 @@
     text-align: center;
     padding: 20px 0;
   }
+  .warning{
+    padding-bottom: 10px;
+    color: red;
+    font-size: 14px;
+    font-family: $font-en-poppins;
+    text-align: center;
+    font-weight: 600;
+  }
   .form {
     display: flex;
     flex-direction: column;
@@ -61,20 +72,21 @@
     align-items: center;
     gap: 20px;
     .form-input {
-      width: 50%;
-      padding: 10px 0px;
-      border: 1px solid blueviolet;
+      width: 40%;
+      padding: 10px 0 10px 10px;
+      border: 1px solid $color-primary;
       border-radius: 5px;
-      color: blueviolet;
-      text-align: center;
+      color: $color-primary;
+      text-align: left;
       font-size: 14px;
       font-weight: 400;
       font-family: $font-en-poppins;
     }
     .form-button {
-      padding: 10px 125px;
-      color: blueviolet;
-      border: 1px solid blueviolet;
+      padding: 7px 0;
+      width: 40%;
+      color: $color-primary;
+      border: 1px solid $color-primary;
       border-radius: 5px;
       text-align: center;
       font-size: 14px;
@@ -82,10 +94,10 @@
       font-family: $font-en-poppins;
       cursor: pointer;
     }
-   
+
     .auth-toggle-link {
-      margin-top: 20px;
-      color: blueviolet;
+      margin-top: 10px;
+      color: $color-primary;
       font-size: 14px;
       text-align: center;
       cursor: pointer;

@@ -1,9 +1,9 @@
 {
   "seller": [
     {
-      "name": "",
-      "email": "",
-      "password": "",
+      "name": "niloy khan",
+      "email": "khanniloytahsin@gmail.com",
+      "password": "787898",
       "id": 1
     },
     {
@@ -11,24 +11,6 @@
       "email": "",
       "password": "",
       "id": 2
-    },
-    {
-      "name": "Md. Mortuza Kamal",
-      "email": "khanniloytahsin@gmail.com",
-      "password": "zhzhf",
-      "id": 3
-    },
-    {
-      "name": "new",
-      "email": "zamirislam@gmail.com",
-      "password": "bjbh",
-      "id": 4
-    },
-    {
-      "name": "new",
-      "email": "zamirislam@gmail.com",
-      "password": "bjbh",
-      "id": 5
     }
   ]
 }
